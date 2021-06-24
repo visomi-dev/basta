@@ -5,45 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego Basta | Divierte!</title>
+
+    <!-- ./ se le conoce como ruta relativa -->
+    <link rel="stylesheet" href="./css/global.css">
 </head>
-<body style="margin: 0;">
-    <header style="width: 90vw; padding: 1vw 5vw;">
-        <nav style="width: 100%; display: flex; align-items: center; justify-content: space-between;">
-            <span>
+<body>
+    <header>
+        <nav>
+            <span class="logo">
                 <img
-                    style="width: auto; height: 2.5rem;"
-                    src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                    src="./img/stopmoji.svg"
                     alt="logo de la pagina"
                 >
-            </span>
 
-            <a href="play.html">Juego</a>
+                <h1>basta!</h1>
+            </span>
         </nav>
     </header>
 
-    <main style="width: 90vw; height: 75vh; padding: 1vw 5vw;">
-        <div>
-            <h1>¡Diviertete jugando BASTA!</h1>
+    <main>
+        <div class="content">
+            <h2>
+                ¡Diviertete jugando BASTA!
+            </h2>
+
             <p>
                 También se le conoce como STOP,
                 Tutti Frutti o Lápiz Quieto,
                 con Basta ¡te divertiras!
             </p>
-        </div>
 
-        <div>
-            <button>
-                Entrar ahora
-            </button>
+            <a href="play.html">
+                Jugar ahora
+            </a>
             
             <p>
                 o accede con:
             </p>
 
-            <div style="margin-top: 1rem;">
+            <div class="login">
                 <button>
                     <img
-                        style="width: auto; height: 2rem;"
+                        class="logo-facebook"
                         src="https://lh3.googleusercontent.com/proxy/yV3093QVP87zZihJmAjXEqjfi2NzvAINj0WkqLi74Zp6d5YGraeqsTwHRAPF4_pXxhFSSUup97DdgjQMVQARdOwGHWgKUX6HQJb5EiO_3NnHHx6CMUfCq3iWFuupB6qCweeRf54dClH7qe5kScw7umK4"
                         alt="logo facebook"
                     >
@@ -53,7 +56,7 @@
 
                 <button>
                     <img
-                        style="width: auto; height: 2rem;"
+                        class="logo-google"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png"
                         alt="logo google"
                     >
@@ -62,13 +65,18 @@
                 </button>
             </div>
         </div>
+
+        <img
+            class="illustration"
+            src="./img/basta-illustration.svg"
+            alt="basta ilustracion"
+        >
     </main>
 
-    <footer style="width: 75vw; padding: 1vw 12.5vw; display: flex; align-items: center; justify-content: space-between;">
-        <span>
+    <footer>
+        <span class="logo">
             <img
-                style="width: auto; height: 2.5rem;"
-                src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                src="./img/stopmoji.svg"
                 alt="logo de la pagina"
             >
         </span>
@@ -81,44 +89,40 @@
 
             <div>
                 <a
-                    style="text-decoration: none;"
                     href="https://www.instagram.com/?hl=es-la"
                 >
                     <img
-                        style="width: 1rem; height: 1rem;"
+                        class="logo-footer"
                         src="https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ"
                         alt="logo instagram"
                     >
                 </a>
 
                 <a
-                    style="text-decoration: none;"
                     href="https://facebook.com"
                 >
                     <img
-                        style="width: 1rem; height: 1rem;"
+                        class="logo-footer"
                         src="https://www.facebook.com/images/fb_icon_325x325.png"
                         alt="logo facebook"
                     >
                 </a>
 
                 <a
-                    style="text-decoration: none;"
                     href="https://twitter.com"
                 >
                     <img
-                        style="width: 1rem; height: 1rem;"
+                        class="logo-footer"
                         src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png"
                         alt="logo twitter"
                     >
                 </a>
 
                 <a
-                    style="text-decoration: none;"
                     href="https://discord.com"
                 >
                     <img
-                        style="width: 1rem; height: 1rem;"
+                        class="logo-footer"
                         src="https://media-exp3.licdn.com/dms/image/C560BAQF4M0IT6_BcsA/company-logo_200_200/0/1620918122423?e=2159024400&v=beta&t=bS2Zs3ue9dfCics0Y1vaBxJJUKQJa_TudRCBf9zNfMY"
                         alt="logo discord"
                     >
@@ -126,10 +130,9 @@
             </div>
         </span>
 
-        <span>
+        <span class="logo">
             <img
-                style="width: auto; height: 2.5rem;"
-                src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                src="./img/blogo.svg"
                 alt="logo de la pagina"
             >
         </span>

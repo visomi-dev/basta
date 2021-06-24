@@ -1,0 +1,108 @@
+/* CSS CASCADE STYLE SHEET */
+/* Los estilos se pueden heredar */
+
+body {
+    margin: 0;
+    background: linear-gradient(
+        to bottom right,
+        #15054E,
+        #3D065F 70%,
+        #10054D
+    );
+
+    width: 100vw; /* vw: viewport length width */
+    height: 100vh; /* vh: viewport length height */
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    height: 4rem;
+
+    padding: 0 2rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: auto;
+    height: 2.5rem;
+}
+
+header .logo h1 {
+    color: white;
+    font-size: 2rem;
+
+    margin: 0;
+    margin-left: 0.25em;
+}
+
+main {
+    display: flex;
+    align-items: center;
+
+    height: calc(100vh - 10rem);
+
+    padding: 0 5vw;
+}
+
+main .content {
+    width: 50%;
+    
+    color: white;
+}
+
+main img.illustration {
+    width: 50%;
+    height: auto;
+}
+
+.login {
+    margin-top: 1rem;
+}
+
+.logo-facebook {
+    width: auto;
+    height: 2rem;
+}
+
+.logo-google {
+    width: auto;
+    height: 2rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 6rem;
+
+    padding: 0 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer .logo img {
+    width: auto;
+    height: 2.5rem;
+}
+
+.logo-footer {
+    width: 1rem;
+    height: 1rem;
+}
