@@ -106,3 +106,20 @@ footer .logo img {
     width: 1rem;
     height: 1rem;
 }
+
+.animated-logo {
+    animation:
+        spin 3000ms
+        linear
+        infinite;
+}
+
+@keyframes spin {
+    50% {
+        transform: rotateY(360deg) translateY(-1rem);
+    }
+
+    100% {
+       transform: rotateY(0deg) translateY(0);
+    }
+}
